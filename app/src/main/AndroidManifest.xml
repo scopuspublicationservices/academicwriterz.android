@@ -4,8 +4,8 @@
     <application
         android:allowBackup="true"
         android:label="Academic Writerz"
-        android:icon="@drawable/ic_launcher"
-        android:roundIcon="@drawable/ic_launcher"
+        android:icon="@drawable/academic_writerz_launcher"
+        android:roundIcon="@drawable/academic_writerz_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" android:exported="true">
