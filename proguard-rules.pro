@@ -1,0 +1,1 @@
+# Academic Writerz release configuration

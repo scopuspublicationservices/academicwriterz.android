@@ -1,3 +1,28 @@
 plugins {
-    id 'com.android.application' version '8.13.1' apply false
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.academicwriterz.app'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.academicwriterz.app'
+        minSdk 23
+        targetSdk 36
+        versionCode 1
+        versionName '1.0.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'),
+                    'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
 }
