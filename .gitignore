@@ -2,10 +2,12 @@
 .gradle/
 build/
 !gradle/wrapper/gradle-wrapper.jar
+
 # Android Studio
 .idea/
 *.iml
 local.properties
+
 # APK/AAB
 *.apk
 *.aab
